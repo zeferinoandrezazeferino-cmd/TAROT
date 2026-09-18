@@ -30,7 +30,7 @@ Leitura adulta, sem teatro e sem pressa. Presencial em São Paulo e online.
 
 Quer agendar? Me chama no WhatsApp.
 
-#tarot #tarotsp #andrezazeferino #leituradetarot`;
+#tarot #tarotsp #ranyacartomante #leituradetarot`;
 
     const { META_ACCESS_TOKEN, IG_ACCOUNT_ID } = process.env;
     const BASE_URL = `https://graph.instagram.com/v21.0`;
@@ -56,7 +56,7 @@ Quer agendar? Me chama no WhatsApp.
     });
 
     console.log(`🎉 POST PUBLICADO COM SUCESSO! ID: ${publishRes.data.id}`);
-    console.log('Abra o Instagram da Andreza para conferir!');
+    console.log('Abra o Instagram da Ranya para conferir!');
   } catch(e) {
     console.error('❌ ERRO:', e.response ? e.response.data : e.message);
   }

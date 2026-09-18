@@ -30,7 +30,7 @@ Leitura adulta, sem teatro e sem pressa. Presencial em São Paulo e online.
 
 Quer agendar? Me chama no WhatsApp.
 
-#tarot #tarotsp #andrezazeferino #leituradetarot`,
+#tarot #tarotsp #ranyacartomante #leituradetarot`,
     'feed-baralho.jpg': 'Uma mesa posta é um convite à clareza. O que pede para ser visto hoje? Agende sua leitura no link da bio. 🃏✨ #tarot #tarotsp #clareza',
     'feed-mesa.jpg': 'Não leio o futuro como destino. Leio o presente com mais nitidez — e isso já muda o que vem depois. Sessões disponíveis esta semana. 🕯️ #tarot #autoconhecimento #caminho',
     'feed-leque.jpg': 'Transições exigem coragem para olhar o que está fora de foco. A sessão é uma conversa, sem pressa. Vamos abrir as cartas? 🌿 #tarotcontemporaneo #transição',

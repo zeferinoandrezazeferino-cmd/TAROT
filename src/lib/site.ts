@@ -1,12 +1,12 @@
 export const site = {
-  brand: "Andreza Zeferino",
-  reader: "Andreza",
-  fullName: "Andreza Zeferino",
+  brand: "Ranya Cartomante",
+  reader: "Ranya",
+  fullName: "Ranya Cartomante",
   city: "São Paulo",
   whatsapp: "5511912345678",
   themeColor: "#0e0c0a",
   defaultMessage:
-    "Olá, Andreza. Vim pelo site e quero agendar uma leitura.",
+    "Olá, Ranya. Vim pelo site e quero agendar uma leitura.",
 } as const;
 
 export const nav = [
@@ -26,7 +26,7 @@ export const readings = [
     details:
       "Uma sessão curta e precisa. Ideal quando você precisa de um recorte honesto — um sim, um não, um próximo passo.",
     message:
-      "Olá, Andreza. Quero agendar a leitura Clareza (30 min / R$ 97).",
+      "Olá, Ranya. Quero agendar a leitura Clareza (30 min / R$ 97).",
   },
   {
     id: "caminho",
@@ -37,7 +37,7 @@ export const readings = [
     details:
       "Espalho o mapa do assunto com calma: contexto, bloqueio, recurso e direção. A conversa dura o tempo de uma hora verdadeira.",
     message:
-      "Olá, Andreza. Quero agendar a leitura Caminho (60 min / R$ 187).",
+      "Olá, Ranya. Quero agendar a leitura Caminho (60 min / R$ 187).",
   },
   {
     id: "vinculos",
@@ -48,7 +48,7 @@ export const readings = [
     details:
       "Para quem está em um vínculo — ou saindo de um. Sem romance fácil: o que a dinâmica pede, o que você já sabe e o que ainda resiste.",
     message:
-      "Olá, Andreza. Quero agendar a leitura Vínculos (60 min / R$ 217).",
+      "Olá, Ranya. Quero agendar a leitura Vínculos (60 min / R$ 217).",
   },
   {
     id: "ciclo",
@@ -59,7 +59,7 @@ export const readings = [
     details:
       "Para marcar uma virada. Olhamos o arco, os temas que voltam e o que pede consistência — não só o que o futuro “reserva”.",
     message:
-      "Olá, Andreza. Quero agendar a leitura Ciclo (75 min / R$ 247).",
+      "Olá, Ranya. Quero agendar a leitura Ciclo (75 min / R$ 247).",
   },
 ] as const;
 
@@ -90,7 +90,7 @@ export const testimonials = [
   },
   {
     quote:
-      "Andreza não empurra destino. Ela escuta, abre as cartas e devolve pergunta boa. Foi a primeira vez que uma leitura me serviu de fato.",
+      "Ranya não empurra destino. Ela escuta, abre as cartas e devolve pergunta boa. Foi a primeira vez que uma leitura me serviu de fato.",
     name: "Rafael S.",
     meta: "Leitura Clareza · online",
   },
