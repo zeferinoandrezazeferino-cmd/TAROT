@@ -3,7 +3,7 @@ export const site = {
   reader: "Ranya",
   fullName: "Ranya Cartomante",
   city: "São Paulo",
-  whatsapp: "5511912345678",
+  whatsapp: "554384297499",
   themeColor: "#0e0c0a",
   defaultMessage:
     "Olá, Ranya. Vim pelo site e quero agendar uma leitura.",

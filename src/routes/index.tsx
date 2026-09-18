@@ -1,5 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
-import { ArrowUpRight, Clock3, MapPin, Video } from "lucide-react";
+import { ArrowUpRight, Clock3, MapPin, Video, Instagram } from "lucide-react";
 import { Mark } from "@/components/mark";
 import { SiteHeader } from "@/components/site-header";
 import { WhatsAppCta } from "@/components/whatsapp-cta";
@@ -398,6 +398,15 @@ function Footer() {
           <p className="mt-3 max-w-sm text-sm text-muted-foreground">
             Leituras de tarot em {site.city} e online.
           </p>
+          <a
+            href="https://instagram.com/ranya.cartomante"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mt-4 inline-flex items-center gap-2 text-sm text-muted-foreground transition-colors hover:text-foreground"
+          >
+            <Instagram className="size-4" />
+            @ranya.cartomante
+          </a>
         </div>
         <p className="text-xs leading-relaxed text-subtle">
           A leitura de tarot é instrumento de reflexão. Não substitui
