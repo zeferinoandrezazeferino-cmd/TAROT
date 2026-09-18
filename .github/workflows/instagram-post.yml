@@ -1,0 +1,33 @@
+name: Instagram Auto Post
+
+on:
+  schedule:
+    # Roda as Terças, Quintas e Sábados às 12:00 (meio-dia) UTC (09:00 BRT)
+    # Ajuste os dias (2=Terça, 4=Quinta, 6=Sábado) e hora (15 UTC = 12h BRT)
+    - cron: '0 15 * * 2,4,6'
+  
+  # Permite rodar o workflow manualmente pelo painel do GitHub
+  workflow_dispatch:
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v4
+      
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '20'
+        
+    - name: Install Dependencies
+      run: npm install axios dotenv
+      
+    - name: Run Instagram Bot
+      env:
+        META_ACCESS_TOKEN: ${{ secrets.META_ACCESS_TOKEN }}
+        IG_ACCOUNT_ID: ${{ secrets.IG_ACCOUNT_ID }}
+        GITHUB_RAW_BASE_URL: ${{ secrets.GITHUB_RAW_BASE_URL }}
+      run: node scripts/instagram-bot.js
